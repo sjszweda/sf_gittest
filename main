@@ -1,0 +1,4 @@
+EXECUTE IMMEDIATE FROM 'schemas.sql';
+
+EXECUTE IMMEDIATE FROM 'scv/tables/customer.sql';
+EXECUTE IMMEDIATE FROM 'scv/tables/load_customer.sql';
